@@ -12,6 +12,18 @@
   border-radius: 2px;
   border: none;
 }
+.my-button:hover {
+  color: #ffffff;
+  background-color: #00bc9c;
+}
+.my-button:active {
+  color: #ffffff;
+  background-color: #00bc9c;
+}
+.my-button:focus {
+  color: #ffffff;
+  background-color: #00bc9c;
+}
 header {
   background: #f5f7fb;
   min-height: 41px;
@@ -247,7 +259,7 @@ header .container .row-header .col-lg-4 a:hover {
   box-sizing: border-box;
   padding: 0;
   min-height: 880px;
-  background: url(../img/jumbotron.jpg) center no-repeat;
+  background: #506a85 url(../img/jumbotron.jpg) center no-repeat;
   text-align: center;
   margin: 0 auto;
 }
@@ -813,6 +825,21 @@ footer {
   text-transform: uppercase;
   border: 5px solid #4e5c6b;
   box-sizing: border-box;
+}
+.updates a:hover {
+  border: 5px solid #4e5c6b;
+  color: #ffffff;
+  background-color: #00bc9c;
+}
+.updates a:active {
+  border: 5px solid #4e5c6b;
+  color: #ffffff;
+  background-color: #00bc9c;
+}
+.updates a:focus {
+  border: 5px solid #4e5c6b;
+  color: #ffffff;
+  background-color: #00bc9c;
 }
 .copyright {
   position: relative;
